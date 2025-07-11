@@ -24,6 +24,12 @@ Now you must follow the steps, first you must get the repository on your device
     git clone https://github.com/JoseVitor-1337/my-leads.git
 ```
 
+Access the git folder
+
+```bash
+   cd my-leads
+```
+
 Access the source code folder
 
 ```bash
