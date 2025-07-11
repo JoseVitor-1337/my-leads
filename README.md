@@ -1,6 +1,8 @@
-this is a application to cread leads for clients, with user authentication.
+# My Leads
 
-This is a purpose to learning to Next.js 14 with Tailwind CSS,
+![badge](https://img.shields.io/badge/status-completed-blue)
+
+Web aplication create to manager leads for clients, with user authentication. A purpose behind this is to learning to Next.js 14 with Tailwind CSS.
 
 ## Tecnologies used
 
@@ -40,4 +42,4 @@ Initialize the server
     npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the web application running.
