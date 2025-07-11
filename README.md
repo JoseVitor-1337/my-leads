@@ -4,11 +4,17 @@
 
 Web aplication create to manager leads for clients, with user authentication. A purpose behind this is to learning to Next.js 14 with Tailwind CSS.
 
+## API Usage
+
+the web application use a API that is online on [heroku](https://www.heroku.com/) with this [URL](https://desafiostudiomega-2d925d8d0b86.herokuapp.com/v1)
+
+tecnologies used on API is [NestJS](https://nestjs.com/)
+
 ## Tecnologies used
 
 - [Next.js](https://nextjs.org)
 
-- [Tailwind CSS](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
