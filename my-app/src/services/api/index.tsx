@@ -23,9 +23,12 @@ export type ResponseReturn = {
   success: boolean;
   message?: string;
   data?: {
-    name?: string;
-    email?: string;
-    access_token?: string;
+    token?: string;
+    user: {
+      id?: string;
+      name?: string;
+      email?: string;
+    };
   };
 };
 

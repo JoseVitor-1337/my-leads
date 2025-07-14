@@ -53,15 +53,15 @@ export default function Login() {
     });
     console.log("response", response);
     if (response.success) {
-      const token = response?.data?.access_token as string;
+      const token = response?.data?.token as string;
       createOnStorage(AUTHENTICATION_TOKEN_KEY, token);
       handleGoToLeads();
       setError({
         hasError: false,
       });
       setUser({
-        name: response.data?.name as string,
-        email: response.data?.email as string,
+        name: response.data?.user?.name as string,
+        email: response.data?.user?.email as string,
       });
     } else {
       setError({

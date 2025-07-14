@@ -10,7 +10,7 @@ import PageSpinner from "@/components/PageSpinner";
 
 export default function UpdateLeadForm() {
   const [loadingLead, setLoadingLead] = useState<boolean>(true);
-  const [currentLead, setCurrentLead] = useState<Leads>({});
+  // const [currentLead, setCurrentLead] = useState<Leads>({});
 
   const { setError } = useError();
 
@@ -24,7 +24,7 @@ export default function UpdateLeadForm() {
     const response = await callAPI({ method: "GET", url: `lead/${leadId}` });
     if (response.success) {
       setError({ hasError: false });
-      setCurrentLead(response.data || {});
+      // setCurrentLead(response.data || {});
     } else {
       setError({ hasError: true, message: response.message });
     }
@@ -59,7 +59,6 @@ export default function UpdateLeadForm() {
       description="Preencha todos os campos abaixo"
     >
       <LeadForm
-        defaultLead={currentLead}
         submiteButtonText="Atualizar informação de contato"
         onSubmit={(lead: Leads) => handleFormSubmit(lead)}
       />
